@@ -1,10 +1,8 @@
-package com.company;
+/*
+Rotate the elements of given array by d positions
+*/
 
 public class Leftshift {
-    // Java program to rotate an array by
-// d elements
-
-
         /*Function to left rotate arr[] of size n by d*/
         void leftRotate(int a[], int d, int n)
         {
@@ -39,8 +37,5 @@ public class Leftshift {
             l.leftRotate(arr, 2, 7);
             l.display(arr, 7);
         }
-
-
-
 
 }
